@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "iMac",
+        "image": "/images/iMac.png",
+        "price": 1750,
+        "finalPrice": 1499.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    },
+    {
+        "id": 2,
+        "name": "iPhone 13",
+        "image": "/images/iphone13.png",
+        "price": 750,
+        "finalPrice": 599.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    },
+    {
+        "id": 3,
+        "name": "iPhone 14 PRO",
+        "image": "/images/iphone14pro.png",
+        "price": 950,
+        "finalPrice": 859.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    },
+    {
+        "id": 4,
+        "name": "iPhone 15 PRO MAX",
+        "image": "/images/iphone15promax.png",
+        "price": 1350,
+        "finalPrice": 1099.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    },
+    {
+        "id": 5,
+        "name": "Macbook",
+        "image": "/images/macbook-pro.png",
+        "price": 2000,
+        "finalPrice": 1799.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    },
+    {
+        "id": 6,
+        "name": "Airpods",
+        "image": "/images/airpods.png",
+        "price": 250,
+        "finalPrice": 199.99,
+        "btnValue": "Add to Cart",
+        "favouriteBtn": "/images/favourite.png",
+        "unFavouriteBtn": "/images/not-favourite.png"
+    }
+]

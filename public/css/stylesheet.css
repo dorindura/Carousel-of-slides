@@ -1,0 +1,296 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+
+/* Slides Classes */
+
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+}
+
+/* Image Classes */
+
+.image-class {
+  position: relative;
+  width: 55%;
+  height: 90%;
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Flex Classes */
+
+.flex-class {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+  gap: 3em;
+  padding: 1em;
+}
+
+/* Background Classes */
+
+.background-color {
+  background-color: white;
+}
+
+/* Card Styles */
+
+.card {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  width: 90%;
+  padding: 2em 0 2em 0;
+}
+
+.card-image {
+  width: 35em;
+  height: 20em;
+}
+
+.slide-container {
+  width: 100%;
+  height: 100%;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+/* Shadows */
+
+.box-shadow {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: box-shadow 0.3s ease;
+}
+
+.box-shadow:hover,
+.box-shadow:active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#card-styles-no-shd :hover {
+  box-shadow: 0px;
+  cursor: pointer;
+}
+
+/* Right Side - Card */
+
+.right-side-card {
+  width: 40%;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.product-name {
+  font-size: 2em;
+}
+
+.hr-class {
+  width: 100%;
+}
+
+.initial-price {
+  font-size: 1.2em;
+  color: gray;
+}
+
+.final-price {
+  font-size: 1.7em;
+  color: red;
+}
+
+.addToCart-btn {
+  width: 8em;
+  height: 2.4em;
+  background-color: black;
+  color: white;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.gap-between-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4em;
+}
+
+.div-btn-class {
+  padding: 0.4em;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.favourite-btn {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  color: white;
+  width: 3em;
+  height: 2em;
+  border-radius: 6px;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.favourite-btn img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* Swiper Buttons */
+
+.swiper-navBtn {
+  color: #0096ff;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+  color: #0000ff;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 40px;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-button-prev {
+  right: 0;
+}
+
+.swiper-pagination.bullet {
+  background-color: #6e93f7;
+  opacity: 1;
+}
+
+.swiper-pagination.bullet-active {
+  background-color: #4070f4;
+}
+
+/* Animation */
+
+.card-content:after {
+  content: "";
+  background-color: #0047ab;
+  height: 3px;
+  width: 0%;
+  left: 1px;
+  right: 1px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-content:hover:after {
+  width: 100%;
+  height: 2px;
+  transition: 3s ease-in-out;
+  display: block;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card-image:hover {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 720px) {
+  .flex-media-queries {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-image {
+    width: 95%;
+    height: 20em;
+  }
+
+  .card-content {
+    margin: 0;
+    height: 37.5em;
+  }
+
+  .card-image {
+    height: 37.5em;
+  }
+
+  .image-class {
+    width: 20em;
+    height: 15em;
+    margin: 0 auto 0 auto;
+  }
+
+  .slide-container {
+    height: 43.75em;
+  }
+
+  .space-between {
+    display: flex;
+    justify-content: normal;
+  }
+
+  .right-side-card {
+    justify-content: center;
+    margin: auto;
+    width: 95%;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: ;
+  }
+
+  .div-btn-class {
+    padding-top: 1.5em;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-class {
+    width: 90%;
+    height: 40%;
+  }
+}
